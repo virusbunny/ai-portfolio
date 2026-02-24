@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Background */
+body {
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(135deg, #020617, #0f172a, #020617);
+  color: white;
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Gradient primary button */
+.primary-btn {
+  background: linear-gradient(135deg, #06b6d4, #22d3ee);
+  color: black;
+  padding: 12px 32px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.4);
+}
+
+.primary-btn:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 40px rgba(34, 211, 238, 0.8);
+}
+
+/* Outline button */
+.outline-btn {
+  border: 2px solid #22d3ee;
+  padding: 12px 32px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.outline-btn:hover {
+  background: linear-gradient(135deg, #06b6d4, #22d3ee);
+  color: black;
+}
