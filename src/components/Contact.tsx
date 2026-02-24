@@ -13,19 +13,19 @@ export default function Contact() {
             href="mailto:shushantkumar@gmail.com"
             className="text-cyan-400 ml-2"
           >
-            shushantkumar@gmail.com
+            kumarshudhant90@gmail.com
           </a>
         </p>
 
         <p>
           📱 Phone:
-          <span className="ml-2">+91 XXXXX XXXXX</span>
+          <span className="ml-2">+91 7319726998</span>
         </p>
 
         <p>
           💼 LinkedIn:
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/shushant-kumar-81529b229/"
             target="_blank"
             className="text-cyan-400 ml-2"
           >
@@ -36,7 +36,7 @@ export default function Contact() {
         <p>
           💻 GitHub:
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/virusbunny"
             target="_blank"
             className="text-cyan-400 ml-2"
           >
